@@ -1,0 +1,15 @@
+@use 'assets'
+
+.button
+    cursor: pointer
+    position: absolute
+    top: 500px
+    left: 400px
+    background: radial-gradient(rgb(40, 40, 45), rgb(50, 50, 55))
+    width: 50px
+    height: 50px
+    border: 1px solid rgba(255, 255, 255, .15)
+    border-radius: 30px
+    box-shadow: -5px -5px 20px rgba(255, 255, 255, .2), 5px 5px 20px rgba(0, 0, 0, 1), -1px 1px 10px rgba(146, 96, 254, .2), 1px -1px 10px rgba(assets.$accent, $alpha: 20%)
+    &:active
+        box-shadow: inset -1px -1px 2px rgba(255, 255, 255, .2), inset 3px 3px 2px rgba(0, 0, 0, .6)

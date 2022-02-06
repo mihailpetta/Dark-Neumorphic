@@ -1,0 +1,42 @@
+@font-face {
+  font-family: adam;
+  src: url("../Adam-Medium.ttf");
+}
+@font-face {
+  font-family: adamBold;
+  src: url("../Adam-Bold.ttf");
+}
+@font-face {
+  font-family: adamLight;
+  src: url("../Adam-Light.ttf");
+}
+@font-face {
+  font-family: code;
+  src: url("../CODE Light.otf");
+}
+@font-face {
+  font-family: codeBold;
+  src: url("../CODE Bold.otf");
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../bg3.png");
+  background-size: auto 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../noise.svg");
+  opacity: 0.1;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=background.css.map */

@@ -1,0 +1,22 @@
+@use 'assets'
+
+.progress
+    position: absolute
+    top: 700px
+    left: 400px
+    background: radial-gradient(rgb(40, 40, 45), rgb(50, 50, 55))
+    width: 200px
+    height: 5px
+    border-radius: 30px
+    box-shadow: inset -1px -1px 2px rgba(255, 255, 255, .2), inset 1px 1px 3px rgba(0, 0, 0, 1), -1px 1px 5px rgba(assets.$accent, $alpha: 20%), 1px -1px 5px rgba(assets.$accent, $alpha: 20%)
+
+.line
+    position: absolute
+    top: 1px
+    left: 1px
+    background: linear-gradient(to right, scale-color(assets.$accent, $lightness: -50%), scale-color(assets.$accent, $lightness: +50%))
+    width: 100px
+    height: 3px
+    border-radius: 30px
+    box-shadow: inset -1px -1px 2px rgba(255, 255, 255, .2), inset 1px 1px 3px rgba(0, 0, 0, 1)
+

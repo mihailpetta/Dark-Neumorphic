@@ -1,0 +1,22 @@
+@font-face {
+  font-family: adam;
+  src: url("../Adam-Medium.ttf");
+}
+@font-face {
+  font-family: adamBold;
+  src: url("../Adam-Bold.ttf");
+}
+@font-face {
+  font-family: adamLight;
+  src: url("../Adam-Light.ttf");
+}
+@font-face {
+  font-family: code;
+  src: url("../CODE Light.otf");
+}
+@font-face {
+  font-family: codeBold;
+  src: url("../CODE Bold.otf");
+}
+
+/*# sourceMappingURL=assets.css.map */
