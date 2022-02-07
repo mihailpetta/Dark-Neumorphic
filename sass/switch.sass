@@ -1,0 +1,28 @@
+@use 'assets'
+
+.switch
+    position: absolute
+    width: 65px
+    height: 31px
+    top: 600px
+    left: 400px
+    background: radial-gradient(rgb(40, 40, 45), rgb(50, 50, 55))
+    border: 1px solid rgba(255, 255, 255, .15)
+    border-radius: 30px
+    box-shadow: inset -1px -1px 2px rgba(255, 255, 255, .2), inset 3px 3px 2px rgba(0, 0, 0, .6), -1px 1px 5px rgba(assets.$accent, $alpha: 20%), 1px -1px 5px rgba(assets.$accent, $alpha: 20%)
+    transition: .4s
+
+.handle
+    cursor: pointer
+    position: absolute
+    background-color: rgb(40, 40, 45)
+    top: 5px
+    left: 5px
+    width: 18px
+    height: 18px
+    border: 1px solid rgba(255, 255, 255, .15)
+    border-radius: 30px
+    box-shadow: -1px -1px 5px rgba(255, 255, 255, 1), 2px 2px 10px rgba(0, 0, 0, 1)
+    transition: .4s
+
+    //background-color: scale-color(assets.$accent, $lightness: +50%)
