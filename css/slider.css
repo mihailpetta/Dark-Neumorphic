@@ -33,7 +33,7 @@
   position: absolute;
   top: 1px;
   left: 1px;
-  background: linear-gradient(to right, #06395c, #6bbef5);
+  background: linear-gradient(to right, #0b67a5, #6bbef5);
   width: 100px;
   height: 3px;
   border-radius: 30px;
@@ -45,11 +45,11 @@
   position: absolute;
   top: -3px;
   left: 95px;
-  background: linear-gradient(to right, #06395c, #6bbef5);
+  background: #0c72b7;
   width: 10px;
   height: 10px;
   border-radius: 30px;
-  box-shadow: inset 1px 1px 4px rgba(255, 255, 255, 0.7), inset -2px -2px 4px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 1px 1px 4px rgba(255, 255, 255, 0.6), inset -2px -2px 4px rgba(0, 0, 0, 0.8);
 }
 
 /*# sourceMappingURL=slider.css.map */
